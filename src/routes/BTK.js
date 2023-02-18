@@ -1,4 +1,4 @@
-[
+export const penalties = [
   {
     "Paragraph": "1§",
     "Name": "Forgalom Feltartása",

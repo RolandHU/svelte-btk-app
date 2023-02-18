@@ -39,7 +39,7 @@
         <div class="flex-1">
           {#each penalties as penalty (uuid4())}
             <div class="flex gap-5 px-5 py-4 border-b border-slate-700">
-              <p>{storedPenalties[penalty.Paragraph]}</p>
+              <b>{storedPenalties[penalty.Paragraph]}</b>
               <p class="flex-1">{penalty.Name}</p>
               <button class="w-6 h-6 m-auto" on:click={clear(penalty.Paragraph)}><MdClose /></button>
             </div>
