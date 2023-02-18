@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen max-h-screen flex text-lg text-slate-300 bg-slate-900
+}
